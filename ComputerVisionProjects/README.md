@@ -2,22 +2,22 @@
 
 ## Classification of the breed of chickens using Data Augmentation and Transfer Learning
 
-### description:
+### Description:
 In this notebook a CNN is created to distinguish between three different chickens (of different breeds).
 First a baseline model is built and then enhanced with Data Augmentation and Transfer Learning.
 
-#### participants:
+#### Participants:
 Paul Keller 
 
 Hannes Olszewski
 
-### course:
+### Course:
 Machine Learning with TensorFlow 
 
-### semester:
+### Semester:
 SoSe2022
 
-### data:
+### Data:
 Hannes has a chicken coop at home. We had not much initial data and the images have to be labelled and cropped manually. 
 Morover there are not much variation in image taking environments.
 
@@ -26,7 +26,7 @@ Morover there are not much variation in image taking environments.
 ### What to Expect
 In the notebook we will create three different models which are able to predict images whether it is a cat or a rabbit. We will use different methods to avoid overfitting. Therefore we will apply data augmentation and transfer learning. In Addition, we will use TensorBoard to evaluate different hyperparameters for the third model. So we can choose the best hyperparameters and train the final model.
 
-#### participants:
+#### Participants:
 Paul Keller 
 
 ### About Dataset

@@ -1,6 +1,6 @@
 # Login with TOTP 
 
-## description:
+## Description:
 ### Lab8
 1. Install  XAMPP 
 2. Open XAMPP 
@@ -15,13 +15,13 @@
 11. npm i 
 12. node index.js
 
-### participants:
+### Participant:
 Paul Keller 
 
-### course:
+### Course:
 Network & Security
 
-### semester:
+### Semester:
 SoSe2022
 
 
