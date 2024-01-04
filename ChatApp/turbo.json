@@ -1,0 +1,51 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "outputs": [
+        "build/**",
+        "dist/**"
+      ],
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "server#build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "MONGO_URL",
+        "PORT",
+        "SECRET",
+        "CLOUDINARY_URL",
+        "API_URL",
+        "CLOUDINARY_NAME",
+        "CLOUDINARY_API_KEY",
+        "CLOUDINARY_API_SECRET"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "test": {
+      "outputs": [
+        "coverage/**"
+      ],
+      "dependsOn": []
+    },
+    "lint": {
+      "outputs": []
+    },
+    "lint:fix": {
+      "outputs": []
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "cache": false
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}

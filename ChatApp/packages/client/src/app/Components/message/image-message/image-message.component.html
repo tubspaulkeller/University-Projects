@@ -1,0 +1,24 @@
+<span>
+  <div class="btn">
+    Select a Picture... {{ imgFileName }}
+    <span class="material-icons" id="img">image</span>
+    <input
+      type="file"
+      ng2FileSelect
+      [uploader]="uploader"
+      (onFileSelected)="OnFileSelected($event)"
+      #fileUploader
+      style="opacity: 0%; margin-left: 10px"
+    />
+  </div>
+  <div class="file-path-wrapper">
+    <input
+      [(ngModel)]="imgFileName"
+      class="file-path validate"
+      id="filePath"
+      type="text"
+      [ngModelOptions]="{ standalone: true }"
+      style="display: none"
+    />
+  </div>
+</span>

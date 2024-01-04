@@ -1,0 +1,17 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/AsyncAwait
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/AsyncAwait.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/AsyncAwait.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/AsyncAwait.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/AsyncAwait.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/refint/AsyncAwait.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/ref/AsyncAwait.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/bin/Debug/net6.0/BCrypt.Net.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/AsyncAwait/obj/Debug/net6.0/AsyncAwait.csproj.CopyComplete

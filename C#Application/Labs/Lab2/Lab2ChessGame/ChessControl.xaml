@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="Lab2ChessGame.ChessControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lab2ChessGame"
+             mc:Ignorable="d" Height="500" Width="450">
+
+    <Grid x:Name="theGrid" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="30"></RowDefinition>
+            
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ToggleButton Content ="" Grid.Column="0" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+
+        <ToggleButton Content ="A" Grid.Column="1" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="B" Grid.Column="2" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="C" Grid.Column="3" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="D" Grid.Column="4" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="E" Grid.Column="5" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="F" Grid.Column="6" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="G" Grid.Column="7" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="H" Grid.Column="8" Grid.Row="0" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+
+        <ToggleButton Content ="8" Grid.Column="0" Grid.Row="1" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="7" Grid.Column="0" Grid.Row="2" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="6" Grid.Column="0" Grid.Row="3" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="5" Grid.Column="0" Grid.Row="4" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="4" Grid.Column="0" Grid.Row="5" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="3" Grid.Column="0" Grid.Row="6" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="2" Grid.Column="0" Grid.Row="7" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="1" Grid.Column="0" Grid.Row="8" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+        <ToggleButton Content ="" Grid.Column="0" Grid.Row="9" Background="DarkRed" FontSize="20"  Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"  />
+
+        <Button Content ="" Grid.Column="8" Grid.Row="8" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="8" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="8" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="8" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="8" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="8" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="8" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="8" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="7" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="7" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="7" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="7" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="7" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="7" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="7" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="7" Background="White"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="6" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="6" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="6" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="6" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="6" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="6" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="6" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="6" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="5" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="5" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="5" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="5" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="5" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="5" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="5" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="5" Background="White"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="4" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="4" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="4" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="4" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="4" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="4" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="4" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="4" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="3" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="3" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="3" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="3" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="3" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="3" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="3" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="3" Background="White"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="2" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="2" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="2" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="2" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="2" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="2" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="2" Background="White" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="2" Background="ForestGreen"  FontSize="36" Click="Button_Click"/>
+
+        <Button Content ="" Grid.Column="8" Grid.Row="1" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="7" Grid.Row="1" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="6" Grid.Row="1" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="5" Grid.Row="1" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="4" Grid.Row="1" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="3" Grid.Row="1" Background="White"  FontSize="36" Click="Button_Click"/>
+        <Button Content ="" Grid.Column="2" Grid.Row="1" Background="ForestGreen" FontSize="36" Click="Button_Click" />
+        <Button Content ="" Grid.Column="1" Grid.Row="1" Background="White"  FontSize="36" Click="Button_Click"/>
+
+        <Label x:Name="onTurnLabel" Content="OnTurn: White Pieces" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground ="White" Background="DarkRed" FontFamily="Arial"  FontSize="14" FontWeight="Medium"/>
+        <!--<Label x:Name="showSum" Content="Sum: 0" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground ="White" Background="DarkRed" FontFamily="Arial"  FontSize="14" FontWeight="Medium"/>-->
+        <ToggleButton x:Name="SaveButton" Content ="Save" Grid.Column="8" Grid.Row="9"  Foreground ="White" Background="DarkRed" FontFamily="Arial"  FontSize="14" FontWeight="Medium" Click="SaveGameState" />
+        <ToggleButton  x:Name="LoadButton" Content ="Load" Grid.Column="7" Grid.Row="9" Foreground ="White" Background="DarkRed" FontFamily="Arial"  FontSize="14" FontWeight="Medium" Click="LoadGameState" />
+    </Grid>
+
+    
+</UserControl >

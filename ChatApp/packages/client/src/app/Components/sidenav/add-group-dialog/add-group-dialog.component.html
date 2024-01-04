@@ -1,0 +1,39 @@
+<h1 mat-dialog-title>Please enter a group name</h1>
+<div class="parent">
+  <mat-form-field appearance="fill">
+    <mat-label>Group name</mat-label>
+    <input #name="ngModel" matInput [(ngModel)]="data.name" required minlength="3" />
+  </mat-form-field>
+  <div class="btn">
+    Choose a group image... {{ imgFileName }}
+    <span class="material-icons" id="img">image</span>
+    <input
+      type="file"
+      ng2FileSelect
+      [uploader]="uploader"
+      (onFileSelected)="OnFileSelected($event)"
+      #fileUploader
+      style="opacity: 0%; margin-left: 10px"
+    />
+  </div>
+  <div class="file-path-wrapper">
+    <input
+      [(ngModel)]="imgFileName"
+      class="file-path validate"
+      id="filePath"
+      type="text"
+      [ngModelOptions]="{ standalone: true }"
+      style="display: none"
+    />
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-stroked-button (click)="onNoClick()">Cancel</button>
+  <button
+    mat-stroked-button
+    [disabled]="name.errors?.['minlength'] || name.errors?.['required']"
+    [mat-dialog-close]="data"
+  >
+    Create
+  </button>
+</div>

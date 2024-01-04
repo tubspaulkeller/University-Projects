@@ -1,0 +1,11 @@
+<div>
+  <mat-list *ngFor="let user of users">
+    <mat-list-item
+      *ngIf="user._id !== currentUser._id"
+      [routerLink]="['/users', user.username, user._id]"
+      [routerLinkActive]="['active']"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >{{ user.username }} <i class="material-icons">chat</i></mat-list-item
+    >
+  </mat-list>
+</div>

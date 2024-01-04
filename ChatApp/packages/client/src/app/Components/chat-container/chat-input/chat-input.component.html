@@ -1,0 +1,41 @@
+<mat-form-field appearance="outline">
+  <button matPrefix mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>add</mat-icon>
+  </button>
+  <input matInput placeholder="Enter a message" type="text" [(ngModel)]="message" (keyup)="doTyping()"
+         (keyup.enter)="sendMessage()">
+  <button matSuffix mat-icon-button (click)="openGifPicker()">
+    <mat-icon>gif_box</mat-icon>
+  </button>
+  <button matSuffix mat-icon-button (click)="toggleEmojiPicker()">
+    <mat-icon>sentiment_very_satisfied</mat-icon>
+  </button>
+  <button matSuffix mat-icon-button (click)="sendMessage()">
+    <mat-icon>send</mat-icon>
+  </button>
+</mat-form-field>
+<emoji-mart
+  [style]="{ position: 'absolute', bottom: '136px', right: '20px' }"
+  *ngIf="showEmojiPicker"
+  (emojiSelect)="addEmojiToMessage($event)"
+  title="Choose your emoji"
+></emoji-mart>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="selectImage($event)">
+    <mat-icon>image</mat-icon>
+    <span>Image</span>
+  </button>
+  <button mat-menu-item (click)="recordAudio()">
+    <mat-icon>mic</mat-icon>
+    <span>Voice Message</span>
+  </button>
+</mat-menu>
+<!--<input type="file" #fileInput style="display: none;" (change)="onFileChange($event)" accept="image/*"/>-->
+<input
+  [style]="{ display: 'none' }"
+  type="file"
+  ng2FileSelect
+  [uploader]="uploader"
+  (onFileSelected)="onFileSelect($event)"
+  #fileInput
+/>

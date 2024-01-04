@@ -1,0 +1,25 @@
+.mat-dialog-actions {
+  justify-content: flex-end;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-right: 50px;
+  background-color: transparent;
+}
+#img {
+  float: right;
+  margin-top: 5px;
+}

@@ -1,0 +1,11 @@
+<!--<h5>{{ groupName }}</h5>-->
+<!--<mat-list *ngIf="groupMembers.length">-->
+<!--  <mat-list-item *ngFor="let member of groupMembers">-->
+<!--    <img mat-list-icon src="{{ member.imgSrc }}" alt="userImage" />-->
+<!--    <span>{{ member.name }}</span>-->
+<!--  </mat-list-item>-->
+<!--</mat-list>-->
+<!--<app-chat *ngIf="currentRoomId" [roomId]="currentRoomId"></app-chat>-->
+
+
+<app-chat-container *ngIf="currentRoom" [currentRoom]="currentRoom"></app-chat-container>

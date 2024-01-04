@@ -1,0 +1,48 @@
+<mat-card class="upload">
+  <mat-card-header>
+    <mat-card-title>Upload a Picture </mat-card-title>
+    <mat-card-subtitle class="subtitle">
+      <form>
+        <div class="file-field input-field">
+          <div class="btn">
+            <i class="material-icons">image</i>
+            <input
+              type="file"
+              ng2FileSelect
+              [uploader]="uploader"
+              (onFileSelected)="OnFileSelected($event)"
+            />
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" id="filePath" type="text" style="opacity: 0" />
+          </div>
+        </div>
+      </form>
+    </mat-card-subtitle>
+  </mat-card-header>
+</mat-card>
+
+<div class="row">
+  <div *ngFor="let image of images">
+    <div class="card-wrapper">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+        </mat-card-header>
+
+        <img
+          mat-card-image
+          class="imgCircle"
+          src="https://res.cloudinary.com/dmnkxrxes/image/upload/v{{ image.imgVersion }}/{{
+            image.imgId
+          }}"
+          alt="Profilepicture"
+        />
+
+        <mat-card-actions>
+          <button mat-button class="btn" (click)="SetProfileImage(image)">Set as Profile</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

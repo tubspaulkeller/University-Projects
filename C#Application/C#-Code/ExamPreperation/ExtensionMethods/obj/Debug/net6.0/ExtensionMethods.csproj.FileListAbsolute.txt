@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/bin/Debug/net6.0/ExtensionMethods
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/bin/Debug/net6.0/ExtensionMethods.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/bin/Debug/net6.0/ExtensionMethods.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/bin/Debug/net6.0/ExtensionMethods.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/bin/Debug/net6.0/ExtensionMethods.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/refint/ExtensionMethods.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ExtensionMethods.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExtensionMethods/obj/Debug/net6.0/ref/ExtensionMethods.dll

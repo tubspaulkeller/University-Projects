@@ -1,0 +1,72 @@
+<mat-sidenav-container autosize>
+  <mat-sidenav rail-mode mode="side" opened="{{ isExpanded }}" closeWidth="64px">
+    <mat-nav-list>
+      <mat-list-item [routerLink]="''" (click)="setCurrentPage('Home')"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Show Main Feed">
+        <mat-icon mat-list-icon>home</mat-icon>
+        <span *ngIf="isExpanded" matListItemTitle>Home</span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item [routerLink]="'users'" (click)="setCurrentPage('Users')"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Show Active Users">
+        <mat-icon mat-list-icon>person</mat-icon>
+        <span *ngIf="isExpanded">Users</span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item [routerLink]="'groups'" (click)="setCurrentPage('Groups')"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Show Available Groups">
+        <mat-icon mat-list-icon>groups</mat-icon>
+        <span *ngIf="isExpanded">Groups</span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+
+
+      <!-- Render Groups Section -->
+      <mat-list-item *ngFor="let group of groups"
+                     (click)="setCurrentPage(group.name)"
+                     [routerLink]="['room', group._id]"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Go To {{group.name}} Room">
+        <mat-icon *ngIf="!groupHasImage(group)" mat-list-icon>group</mat-icon>
+        <img *ngIf="groupHasImage(group)" mat-list-icon [src]="group.imgSrc" class="group-image" alt="group-image">
+        <span *ngIf="isExpanded">{{ group.name }}</span>
+      </mat-list-item>
+      <app-add-group-item [isExpanded]="isExpanded"></app-add-group-item>
+
+      <!-- Render User Profile Picture Section -->
+      <mat-divider></mat-divider>
+      <mat-list-item [routerLink]="'profilepicture'" (click)="setCurrentPage('Profilepicture')"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Add User Profile-Picture">
+        <mat-icon mat-list-icon>image</mat-icon>
+        <span *ngIf="isExpanded">Profile</span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+
+      <!--Bottom Section-->
+      <span class="vertical-spacer"></span>
+      <mat-list-item (click)="isExpanded = !isExpanded">
+        <mat-icon mat-list-icon class="chevron_button" [ngClass]="{ rotated: isExpanded }"
+        >chevron_right
+        </mat-icon
+        >
+        <span *ngIf="isExpanded">Collapse</span>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <h4 style="padding-left: 8px">{{ currentPage }}</h4>
+      <span class="horizontal-spacer"></span>
+      <app-avatar></app-avatar>
+    </mat-toolbar>
+    <div class="main-container">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

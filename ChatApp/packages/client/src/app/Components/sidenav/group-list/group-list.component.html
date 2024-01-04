@@ -1,0 +1,8 @@
+<mat-list class="dense-list">
+  <app-group-item
+    *ngFor="let group of groups"
+    [group]="group"
+    [isExpanded]="isExpanded"
+  ></app-group-item>
+  <app-add-group-item [isExpanded]="isExpanded"></app-add-group-item>
+</mat-list>

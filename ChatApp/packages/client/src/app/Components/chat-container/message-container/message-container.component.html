@@ -1,0 +1,16 @@
+<mat-list>
+  <div *ngFor="let message of messages" class="message-container">
+    <div class="message-title">
+      <span class="message-time">{{formatTime(message.timestamp, message.ianaTimezone)}}</span>
+      <span class="message-sender" [ngClass]="{'current-user': message.isCurrentUser}">{{message.sender.name}} </span>
+    </div>
+    <div class="message-content">
+      <span *ngIf="message.type === 'text'" class="message-text">{{message?.content}}</span>
+      <img *ngIf="message.type === 'image'" class="message-gif" [src]="buildImageUrl(message)"/>
+      <img *ngIf="message.type === 'gif'" class="message-gif" [src]="getGifUrl(message)" alt="GIF"/>
+      <audio *ngIf="message.type === 'audio'" controls="">
+        <source [src]="sanitize(getRecordingUrl(message))" type="audio/wav"/>
+      </audio>
+    </div>
+  </div>
+</mat-list>

@@ -1,0 +1,14 @@
+.group-item-with-image {
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.group-item-with-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

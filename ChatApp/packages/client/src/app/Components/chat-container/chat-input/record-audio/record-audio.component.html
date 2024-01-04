@@ -1,0 +1,8 @@
+<mat-dialog-content>
+  <h3 *ngIf="isRecording">Recording...</h3>
+  <h3 *ngIf="!isRecording">Start Recording</h3>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button [disabled]="isRecording" (click)="startRecording()">Start</button>
+  <button mat-raised-button [disabled]="!isRecording" (click)="stopRecording()">Stop</button>
+</mat-dialog-actions>

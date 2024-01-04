@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/bin/Debug/net6.0/Generics
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/bin/Debug/net6.0/Generics.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/bin/Debug/net6.0/Generics.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/bin/Debug/net6.0/Generics.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/bin/Debug/net6.0/Generics.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/refint/Generics.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/Generics.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Generics/obj/Debug/net6.0/ref/Generics.dll

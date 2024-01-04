@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/bin/Debug/net6.0/Struct
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/bin/Debug/net6.0/Struct.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/bin/Debug/net6.0/Struct.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/bin/Debug/net6.0/Struct.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/bin/Debug/net6.0/Struct.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/refint/Struct.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/Struct.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Struct/obj/Debug/net6.0/ref/Struct.dll

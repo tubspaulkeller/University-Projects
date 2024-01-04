@@ -1,0 +1,66 @@
+﻿<Properties StartupConfiguration="{556510C8-622D-4B61-B417-8651F060BB02}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Inheritance__Polymorphism__Static__Fields__Function__Class PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Generics PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Collections PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Abstract__Classes__Interfaces__Properties__events PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Collections/Program.cs">
+    <Files>
+      <File FileName="ExamPreperation/Program.cs" Line="33" Column="6" />
+      <File FileName="ExamPreperation/Car.cs" Line="48" Column="1" />
+      <File FileName="ExamPreperation/VW.cs" Line="10" Column="19" />
+      <File FileName="Abstract_Classes/Program.cs" Line="18" Column="1" />
+      <File FileName="Abstract_Classes/Person.cs" Line="37" Column="29" />
+      <File FileName="Abstract_Classes/Student.cs" Line="2" Column="56" />
+      <File FileName="Abstract_Classes/Professor.cs" Line="2" Column="56" />
+      <File FileName="Abstract_Classes/IMatNo.cs" Line="2" Column="56" />
+      <File FileName="ExtensionMethods/Program.cs" Line="37" Column="72" />
+      <File FileName="ExtensionMethods/ExtensionMethosa.cs" Line="1" Column="1" />
+      <File FileName="ExtensionMethods/Numbers.cs" Line="27" Column="6" />
+      <File FileName="Collections/Program.cs" Line="28" Column="12" />
+      <File FileName="Collections/Car.cs" Line="26" Column="2" />
+      <File FileName="Collections/CarCollection.cs" Line="2" Column="38" />
+      <File FileName="Collections/Extensions.cs" Line="4" Column="19" />
+      <File FileName="LINQ/Program.cs" Line="49" Column="1" />
+      <File FileName="LINQ/MyRides.cs" Line="30" Column="1" />
+      <File FileName="Generics/Program.cs" Line="50" Column="6" />
+      <File FileName="Struct/Program.cs" Line="24" Column="53" />
+      <File FileName="Struct/Vector3D.cs" Line="58" Column="2" />
+      <File FileName="Delegate/Program.cs" Line="5" Column="1" />
+      <File FileName="Generics/Vector.cs" Line="33" Column="1" />
+      <File FileName="Generics/GenericEnumerator.cs" Line="8" Column="8" />
+      <File FileName="Generics/Squares.cs" Line="22" Column="1" />
+      <File FileName="Collections/PrimeNumbers.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExamPreperation" expanded="True">
+            <Node name="Abstract_Classes_Interfaces_Properties_events" expanded="True" />
+            <Node name="Collections" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Delegate" expanded="True" />
+            <Node name="ExtensionMethods" expanded="True" />
+            <Node name="Generics" expanded="True" />
+            <Node name="Inheritance_Polymorphism_Static_Fields_Function_Class" expanded="True" />
+            <Node name="LINQ" expanded="True" />
+            <Node name="Struct" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExtensionMethods PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LINQ FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Struct FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Delegate FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

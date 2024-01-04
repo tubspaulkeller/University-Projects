@@ -1,0 +1,8 @@
+<span>
+  <button class="rec_btn" *ngIf="!isRecording" (click)="startRecording()">
+    <i class="material-icons">mic</i>
+  </button>
+  <button class="rec_btn" *ngIf="isRecording" (click)="stopRecording()">
+    <i class="material-icons">stop</i>
+  </button>
+</span>

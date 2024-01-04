@@ -1,0 +1,65 @@
+mat-sidenav-container {
+  height: 100%;
+}
+
+.mat-drawer-content {
+  transition-duration: 100ms !important;
+}
+
+.mat-list-item.active {
+  background: gray;
+}
+
+mat-sidenav {
+  mat-nav-list {
+    .mat-icon::selection {
+      border-radius: 25%;
+      background-color: rgba(41, 41, 97, 0.08);
+    }
+
+    .chevron_button {
+      transition: 150ms ease-in-out;
+      transform: rotate(0deg);
+    }
+
+    .chevron_button.rotated {
+      transform: rotate(180deg);
+    }
+
+    span {
+      padding-left: 4px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.mat-sidenav-content {
+  margin-left: 60px;
+}
+
+.horizontal-spacer {
+  flex: 1 1 auto;
+}
+
+.vertical-spacer {
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+
+.main-container {
+  height: calc(100% - 64px);
+  width: 100%;
+}
+
+.room-icon {
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,1 @@
+C:\Users\MCT\Desktop\oscilloscope_keller\oscilloscope_keller\oscilloscope_keller.csproj;x64

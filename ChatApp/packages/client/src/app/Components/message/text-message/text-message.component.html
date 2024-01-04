@@ -1,0 +1,47 @@
+<form class="message-form" (ngSubmit)="SendMessage()">
+  <mat-form-field dense class="text-wrapper" appearance="fill">
+    <div class="message-input">
+      <textarea
+        matInput
+        text
+        class="text"
+        name="message"
+        (keyup)="IsTyping()"
+        (keydown)="searchGif()"
+        [(ngModel)]="text"
+        [ngStyle]="{ 'border-bottom-style': 'solid' }"
+      ></textarea>
+      <button mat-button class="send-button" type="submit">Send</button>
+      <button mat-button class="emoji-btn" (click)="isEmojiPickerVisible = !isEmojiPickerVisible">
+        😀
+      </button>
+      <app-audio-message
+        [user]="user"
+        [groupName]="groupName"
+        [receiver_id]="receiver_id"
+        [roomId]="roomId"
+      ></app-audio-message>
+      <app-image-message
+        [user]="user"
+        [groupName]="groupName"
+        [receiver_id]="receiver_id"
+        [roomId]="roomId"
+      ></app-image-message>
+    </div>
+    <div class="gif" *ngFor="let gif of gifs">
+      <img
+        srcset="{{gif.images.original_still.url}}"
+        src="{{ gif.images.original.url }}"
+        class="gif-suggestion"
+        (click)="sendGif(gif)"
+      />
+    </div>
+    <emoji-mart
+      [style]="{ position: 'absolute', bottom: '20px', right: '20px' }"
+      class="emoji-mart"
+      *ngIf="isEmojiPickerVisible"
+      (emojiSelect)="addEmoji($event)"
+      title="Choose your emoji"
+    ></emoji-mart>
+  </mat-form-field>
+</form>

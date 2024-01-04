@@ -1,0 +1,13 @@
+<mat-form-field appearance="outline">
+  <input matInput type="text" [(ngModel)]="query" (keyup)="search()" placeholder="Search for GIFs">
+</mat-form-field>
+<mat-divider></mat-divider>
+<div class="grid-container">
+  <mat-grid-list cols="4" rowHeight="150px" gutterSize="10px">
+    <mat-grid-tile *ngFor="let gif of gifs" matRipple>
+      <img [src]="gif.images.fixed_height.url" alt="GIF" (click)="sendGif(gif)">
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+

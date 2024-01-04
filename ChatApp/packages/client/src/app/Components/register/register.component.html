@@ -1,0 +1,40 @@
+<div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box" color="accent">
+    <mat-card-header>
+      <mat-card-title>Register</mat-card-title>
+      <div id="errorMsg" *ngIf="errorMessage">
+        <span>{{errorMessage}}</span>
+    </div>
+    </mat-card-header>
+
+    <form class="example-form" [formGroup]="registerForm" (ngSubmit)="registerUser()">
+
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Username" formControlName="username" autocomplete="off">
+          <span class="error" *ngIf="!registerForm.controls['username'].valid && registerForm.controls['username'].touched">
+            Username is required
+        </span>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" type="email" formControlName="email" autocomplete="off">
+          <span class="error" *ngIf="!registerForm.controls['email'].valid && registerForm.controls['email'].touched">
+            Email is required
+        </span>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Password" type="password" formControlName="password">
+          <span class="error" *ngIf="!registerForm.controls['password'].valid && registerForm.controls['password'].touched">
+            Password is required
+        </span>
+        </mat-form-field>
+
+      </mat-card-content>
+
+      <button mat-stroked-button color="primary" class="btn-block">Register</button>
+
+    </form>
+  </mat-card>
+</div>

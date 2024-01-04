@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/bin/Debug/net6.0/Collections
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/bin/Debug/net6.0/Collections.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/bin/Debug/net6.0/Collections.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/bin/Debug/net6.0/Collections.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/bin/Debug/net6.0/Collections.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/refint/Collections.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/Collections.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/Collections/obj/Debug/net6.0/ref/Collections.dll

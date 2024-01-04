@@ -1,0 +1,17 @@
+<mat-toolbar color="accent" class="app-header">
+  <div><a href="#" target="_blank" class="positronx">Real Time Chatapp</a></div>
+  <span class="nav-tool-items">
+    <a mat-button [ngClass]="{'mat-raised-button': isLogin}" (click)="changeForm()" >Login</a>
+    <a mat-button [ngClass]="{'mat-raised-button': !isLogin}" (click)="changeForm()">Register</a>
+  </span>
+</mat-toolbar>
+
+<app-login *ngIf="isLogin"></app-login>
+<app-register *ngIf="!isLogin"></app-register>
+
+<router-outlet></router-outlet>
+
+
+
+
+

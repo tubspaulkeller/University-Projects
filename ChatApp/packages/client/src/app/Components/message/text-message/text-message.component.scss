@@ -1,0 +1,43 @@
+.text-wrapper {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.text {
+  width: 50em;
+  border: 0.1em solid black;
+}
+.typing {
+  text-align: center;
+  width: 100vw;
+  height: 3vh;
+  font-size: large;
+}
+
+.gif-suggestion {
+  height: 7em;
+  width: 7em;
+  padding: 0.8em;
+  float: left;
+}
+
+.gifs {
+  bottom: 0;
+  padding-bottom: 3em;
+}
+.message-form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.mat-form-field[dense] {
+  ::ng-deep .mat-form-field-flex {
+    width: 55%;
+    border-radius: 40px 40px 40px 40px;
+    padding: 0;
+  }
+
+  ::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+}

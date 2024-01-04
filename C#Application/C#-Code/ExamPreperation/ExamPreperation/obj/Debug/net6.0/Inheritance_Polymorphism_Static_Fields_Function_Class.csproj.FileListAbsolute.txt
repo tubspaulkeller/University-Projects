@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/refint/Inheritance_Polymorphism_Static_Fields_Function_Class.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/Inheritance_Polymorphism_Static_Fields_Function_Class.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ref/Inheritance_Polymorphism_Static_Fields_Function_Class.dll

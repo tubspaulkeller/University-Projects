@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="oscilloscope_keller.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:oscilloscope_keller"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="-71,0,0,0">
+        <Canvas Width="960" Height="500" >
+            <Line X1="0" Y1="250" X2="960" Y2="250" StrokeThickness="3" Stroke="Black"></Line>
+            <Line X1="0" Y1="0" X2="0" Y2="500" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="0" Y1="0" X2="20" Y2="0" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="0" Y1="125" X2="10" Y2="125" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="0" Y1="375" X2="10" Y2="375" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="0" Y1="500" X2="20" Y2="500" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="465" Y1="235" X2="465" Y2="265" Stroke="Black" StrokeThickness="3"></Line>
+            <Line X1="960" Y1="235" X2="960" Y2="265" Stroke="Black" StrokeThickness="3"></Line>
+
+            <Polyline x:ConnectionId='2' x:Name="poly" Stroke="Red" StrokeThickness="3" ></Polyline>
+            <Polyline x:ConnectionId='3' x:Name="polyB" Stroke="Green" StrokeThickness="3" ></Polyline>
+
+            <Slider x:ConnectionId='4' x:Name="TriggerSlider" Canvas.Left="-301.102" Canvas.Top="243" RenderTransformOrigin="0.5,0.5"  UseLayoutRounding="False" d:LayoutRounding="Auto" Maximum="1.65" Minimum="-1.65"                                  Margin="0,0,0,0" Width="496" IsDirectionReversed="True" StepFrequency="0.01">
+                <Slider.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </Slider.RenderTransform>
+            </Slider>
+
+            <TextBlock HorizontalAlignment="Left" Text="1,65 V" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Canvas.Left="-60" Canvas.Top="-32"/>
+            <TextBlock HorizontalAlignment="Left" Text="-1,65 V" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" RenderTransformOrigin="-1.123,-2.329" Canvas.Left="-41" Canvas.Top="509" />
+
+            <CheckBox x:ConnectionId='5' x:Name="A" Content="Channel A" Canvas.Left="24" Canvas.Top="-95" VerticalAlignment="Top" IsChecked="True"                        HorizontalAlignment="Center"/>
+            <CheckBox x:ConnectionId='6' x:Name="B" Content="Channel B" Canvas.Left="24" Canvas.Top="-52" IsChecked="False"                        HorizontalAlignment="Center" VerticalAlignment="Top" />
+            <CheckBox x:ConnectionId='7' x:Name="Trigger" Content="Trigger" Canvas.Left="964" Canvas.Top="-68" IsChecked="False"                      />
+
+            <TextBlock x:ConnectionId='8' x:Name="Vmax" FontSize="30" HorizontalAlignment="Left" Text="00" TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="152" Canvas.Left="168" Canvas.Top="-68"/>
+            <TextBlock x:ConnectionId='9' x:Name="Vmin" FontSize="30" HorizontalAlignment="Left" Text="00" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" Width="289" Canvas.Left="328" Canvas.Top="-68"/>
+            <TextBlock x:ConnectionId='10' x:Name="Vavg" FontSize="30" HorizontalAlignment="Left" Text="00" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="253" Canvas.Left="479" Canvas.Top="-68"/>
+            <TextBlock x:ConnectionId='11' x:Name="Veff" FontSize="30" HorizontalAlignment="Left" Text="00" TextWrapping="Wrap" VerticalAlignment="Top" Height="178" Width="183" Canvas.Left="696" Canvas.Top="-68" />
+
+
+        </Canvas>
+    </Grid>
+</Page>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+

@@ -1,0 +1,29 @@
+:host {
+  overflow: hidden;
+}
+
+.mat-form-field {
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.grid-container {
+  height: calc(100% - 140px);
+  width: 100%;
+  overflow: auto;
+}
+
+mat-grid-list {
+  margin: 8px;
+  flex: 1 0 auto;
+}
+
+mat-grid-tile {
+  background: #f5f5f5;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

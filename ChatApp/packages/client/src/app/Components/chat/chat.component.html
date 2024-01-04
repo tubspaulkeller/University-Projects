@@ -1,0 +1,16 @@
+<div class="groupMembers">
+  <mat-toolbar>
+    <span *ngFor="let receiver of receivers"> Members: {{ receiver.username }}</span>
+    <span *ngIf="receiver">Members: {{ receiver.username }}</span>
+  </mat-toolbar>
+</div>
+
+<div *ngFor="let message of messageArr">
+  <app-message [user]="user" [message]="message" [receiver_id]="receiver_id"></app-message>
+</div>
+
+<p class="typing">
+  <span *ngIf="typing"> {{ sender.username }} is typing... </span>
+</p>
+
+<app-text-message [user]="user" [receiver_id]="receiver_id" [roomId]="roomId"></app-text-message>

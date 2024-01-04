@@ -1,0 +1,16 @@
+<mat-list-item
+  [routerLink]="['/room', group?._id]"
+  [routerLinkActive]="['active']"
+  [state]="group"
+  [routerLinkActiveOptions]="{ exact: true }"
+>
+  <mat-icon *ngIf="!hasGroupImage()" mat-list-icon>group</mat-icon>
+  <img
+    *ngIf="hasGroupImage()"
+    mat-list-icon
+    class="group-item-with-image"
+    src="{{ group?.imgSrc }}"
+    alt="userImage"
+  />
+  <span *ngIf="isExpanded">{{ group?.name }}</span>
+</mat-list-item>

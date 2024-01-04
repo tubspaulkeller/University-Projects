@@ -1,0 +1,15 @@
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/ExamPreperation
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/ExamPreperation.deps.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/ExamPreperation.runtimeconfig.json
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/ExamPreperation.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/bin/Debug/net6.0/ExamPreperation.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.csproj.AssemblyReference.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.AssemblyInfoInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.AssemblyInfo.cs
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.csproj.CoreCompileInputs.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/refint/ExamPreperation.dll
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.pdb
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ExamPreperation.genruntimeconfig.cache
+/Users/pkeller/Desktop/Master/1.Semester/ApplicationC#/ExamPreperation/ExamPreperation/ExamPreperation/obj/Debug/net6.0/ref/ExamPreperation.dll

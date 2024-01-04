@@ -1,0 +1,43 @@
+<div class="slim-toolbar-container">
+  <span *ngIf="isPrivateRoom()" class="chat-partner">Chat with: {{currentRoom?.chatPartner?.name}}</span>
+  <div class="slim-toolbar">
+    <button *ngIf="isDeleteEnabled" mat-icon-button (click)="drawer.toggle()" matTooltip="Show Member List">
+      <mat-icon>delete</mat-icon>
+    </button>
+    <button *ngIf="!isPrivateRoom()" mat-icon-button (click)="drawer.toggle()" matTooltip="Show Member List">
+      <mat-icon>group</mat-icon>
+    </button>
+    <button mat-icon-button (click)="openGroupSettings()" matTooltip="Show Group Settings">
+      <mat-icon>settings</mat-icon>
+    </button>
+  </div>
+  <mat-divider></mat-divider>
+</div>
+<mat-divider></mat-divider>
+<mat-drawer-container [@.disabled]="true">
+  <mat-drawer #drawer mode="side" position="end" class="member-drawer">
+    <span class="member-drawer-title">Member List</span>
+    <mat-nav-list>
+      <mat-list-item *ngFor="let member of currentRoom?.members"
+                     [disabled]="isMe(member)"
+                     [routerLink]="['/users', member.name, member.id]"
+                     [routerLinkActive]="['active']"
+                     [routerLinkActiveOptions]="{ exact: true }" matTooltip="Start chat with {{member.name}}">
+
+        <mat-icon *ngIf="member.imgSrc === ''" mat-list-icon>person</mat-icon>
+        <img *ngIf="member.imgSrc !== ''" mat-list-avatar [src]="member.imgSrc" alt="Profile Picture">
+        <h4 mat-line>{{getMemberListName(member)}}</h4>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="chat-container">
+      <!-- Chat messages -->
+      <app-message-container [messages]="messages"></app-message-container>
+      <mat-divider></mat-divider>
+      <span class="is-typing">{{getTypingString()}}</span>
+      <!-- Chat input -->
+      <app-chat-input *ngIf="isRoomValid()" [inputProps]="getChatInputProps()"></app-chat-input>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

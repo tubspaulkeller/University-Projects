@@ -1,0 +1,10 @@
+<div>
+  <mat-list *ngFor="let group of groups">
+    <mat-list-item
+      [routerLink]="['/room', group._id]"
+      [routerLinkActive]="['active']"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >{{ group.name }} <i class="material-icons">chat</i></mat-list-item
+    >
+  </mat-list>
+</div>

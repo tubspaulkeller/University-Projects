@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "eslint": "8.22.0",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "@typescript-eslint/parser": "5.39.0",
+    "@babel/core": "7.19.3",
+    "@babel/eslint-parser": "7.19.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-turbo": "0.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

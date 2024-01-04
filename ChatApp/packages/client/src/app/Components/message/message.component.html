@@ -1,0 +1,63 @@
+<div class="chat-container">
+  <mat-grid-list cols="2" rowHeight="100px">
+    <mat-grid-tile [colspan]="user._id === message.sender ? 2 : 1" [rowspan]="1">
+      <mat-card class="message-card">
+        <mat-card-header>
+          <mat-card-title>{{ TimeFormat(message.createdAt) }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content style="height: 10em">
+          <span
+            *ngIf="message.message"
+            [ngClass]="
+              user._id === message.sender
+                ? 'chat-bubble right slide-right'
+                : 'chat-bubble left slide-left'
+            "
+            >{{ message.message }}
+            <span [ngClass]="user._id === message.sender ? 'timeright' : 'timeleft'">{{
+              TimeFormat(message.createdAt)
+            }}</span>
+          </span>
+          <span *ngIf="message.gif">
+            <span [ngClass]="user._id === message.sender ? 'timeright' : 'timeleft'">{{
+              TimeFormat(message.createdAt)
+            }}</span>
+            <img
+              [ngClass]="
+                user._id === message.sender
+                  ? 'chat-bubble right slide-right'
+                  : 'chat-bubble left slide-left'
+              "
+              class="showGIF"
+              src="{{ message.gif }}"
+              width="150"
+              height="90"
+            />
+          </span>
+          <div *ngIf="message.recordingurl">
+            <audio class="audio" controls="">
+              <source [src]="sanitize(message.recordingurl)" type="audio/wav" />
+            </audio>
+          </div>
+          <div *ngIf="message.imgId">
+            <span [ngClass]="user._id === message.sender ? 'timeright' : 'timeleft'">{{
+              TimeFormat(message.createdAt)
+            }}</span>
+            <img
+              [ngClass]="
+                user._id === message.sender
+                  ? 'chat-bubble right slide-right'
+                  : 'chat-bubble left slide-left'
+              "
+              width="150"
+              height="90"
+              src="https://res.cloudinary.com/dmnkxrxes/image/upload/v{{ message.imgVersion }}/{{
+                message.imgId
+              }}"
+            />
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

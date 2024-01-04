@@ -1,0 +1,20 @@
+<div class="avatar-container" matTooltip="Show User Menu">
+  <span class="avatar-text">Hello, {{ getUserName() }}</span>
+  <img
+    mat-list-icon
+    [matMenuTriggerFor]="menu"
+    class="avatar"
+    src="{{ getImageURL() }}"
+    alt="userImage"
+  />
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="logout()">
+      <mat-icon>logout</mat-icon>
+      <span>Logout</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>settings</mat-icon>
+      <span>Settings</span>
+    </button>
+  </mat-menu>
+</div>
