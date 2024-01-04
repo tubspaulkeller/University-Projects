@@ -5,6 +5,21 @@
 This project was created in the scope of the `Modern Web Development` module at Kiel University of Applied Sciences.
 Main motivation was to explore real-time communication over websockets, angular for frontend development and some monorepo tooling (turbo).
 
+## Screenshots 
+<img width="400" alt="Screenshot 2024-01-04 at 20 08 42" src="https://github.com/tubspaulkeller/University-Projects/assets/102319452/bf48e15c-2337-47d6-8b1b-4e952006b88d">
+
+Landingpage <br>
+<img width="600" alt="Screenshot 2024-01-04 at 20 08 36" src="https://github.com/tubspaulkeller/University-Projects/assets/102319452/db488b8c-8175-400e-9a02-053f2039cd2c">
+
+Group <br>
+<img width="400" alt="Screenshot 2024-01-04 at 20 08 46" src="https://github.com/tubspaulkeller/University-Projects/assets/102319452/a8658c71-e506-4b27-bff1-bf6aa7f36a4a">
+<img width="600" alt="Screenshot 2024-01-04 at 20 09 07" src="https://github.com/tubspaulkeller/University-Projects/assets/102319452/7b8f4916-383a-4493-8f73-3fbf04318627">
+
+Private Chat <br>
+<img width="600" alt="Screenshot 2024-01-04 at 20 09 13" src="https://github.com/tubspaulkeller/University-Projects/assets/102319452/fb7b4ffa-fd66-4507-b35c-c87e462f20df">
+
+
+
 
 ## Tech-Stack
 ### Frontend:
